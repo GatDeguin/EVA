@@ -1,0 +1,38 @@
+{
+  "coordinator": {
+    "original_palette": {
+      "pixels_channel_difference_over_24": 177,
+      "pixels_luma_difference_over_24": 60,
+      "peak_luma_difference": 51.73
+    },
+    "final": {
+      "pixels_channel_difference_over_24": 215,
+      "pixels_luma_difference_over_24": 154,
+      "peak_luma_difference": 85.58
+    }
+  },
+  "engineer": {
+    "original_palette": {
+      "pixels_channel_difference_over_24": 193,
+      "pixels_luma_difference_over_24": 170,
+      "peak_luma_difference": 122.7
+    },
+    "final": {
+      "pixels_channel_difference_over_24": 245,
+      "pixels_luma_difference_over_24": 231,
+      "peak_luma_difference": 153.55
+    }
+  },
+  "technician": {
+    "original_palette": {
+      "pixels_channel_difference_over_24": 159,
+      "pixels_luma_difference_over_24": 102,
+      "peak_luma_difference": 101.07
+    },
+    "final": {
+      "pixels_channel_difference_over_24": 213,
+      "pixels_luma_difference_over_24": 183,
+      "peak_luma_difference": 126.06
+    }
+  }
+}

@@ -1,0 +1,74 @@
+/* The CSS tokens are the runtime source; motion.js has offline-safe fallbacks. */
+:root {
+  --motion-acknowledge-duration: 120ms;
+  --motion-control-duration: 180ms;
+  --motion-status-duration: 160ms;
+  --motion-nearby-duration: 220ms;
+  --motion-context-duration: 260ms;
+  --motion-near-distance: 8px;
+  --motion-context-distance: 18px;
+  --motion-legibility-opacity: .74;
+  --motion-emphasis-opacity: .7;
+  --motion-focus-scale: 1.07;
+  --motion-press-scale: .97;
+  --motion-settle: cubic-bezier(.2, .8, .2, 1);
+}
+
+button {
+  transition-property: background-color, border-color, color;
+  transition-duration: var(--motion-control-duration);
+  transition-timing-function: var(--motion-settle);
+}
+
+/* Only the pictogram grows. The focus outline and 44px button stay stationary. */
+button > svg {
+  transform-origin: center;
+  transform-box: fill-box;
+  transition: transform var(--motion-acknowledge-duration) var(--motion-settle);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  button:not(:disabled):hover > svg { transform: scale(var(--motion-focus-scale)); }
+}
+button:not(:disabled):focus-visible > svg { transform: scale(var(--motion-focus-scale)); }
+button:not(:disabled):active > svg { transform: scale(var(--motion-press-scale)); }
+
+.switch-row input[type="checkbox"]::after {
+  transition: transform var(--motion-control-duration) var(--motion-settle),
+    background-color var(--motion-control-duration) var(--motion-settle);
+}
+
+/* The loader reports real completed work; smoothing must not invent progress. */
+.loading-track span { transition: none; }
+.loading {
+  transition: opacity var(--motion-nearby-duration) var(--motion-settle),
+    visibility 0s var(--motion-nearby-duration);
+}
+
+/* Also covers an application preference; main passes the same policy to JS. */
+[data-motion="reduced"] {
+  --motion-acknowledge-duration: 0ms;
+  --motion-control-duration: 0ms;
+  --motion-status-duration: 0ms;
+  --motion-nearby-duration: 0ms;
+  --motion-context-duration: 0ms;
+  --motion-focus-scale: 1;
+  --motion-press-scale: 1;
+}
+[data-motion="reduced"] button:active { transform: none; }
+[data-motion="reduced"] .immersion-exit:active { transform: translateX(-50%); }
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-acknowledge-duration: 0ms;
+    --motion-control-duration: 0ms;
+    --motion-status-duration: 0ms;
+    --motion-nearby-duration: 0ms;
+    --motion-context-duration: 0ms;
+    --motion-focus-scale: 1;
+    --motion-press-scale: 1;
+  }
+  button:active { transform: none; }
+  .immersion-exit:active { transform: translateX(-50%); }
+  button > svg { transform: none !important; }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "eva-containment-archive",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-contained EVA diorama: semantic motion, articulated crew and adaptive rendering",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "test:lifecycle": "node tests/lifecycle-browser.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "playwright": "1.51.1"
+  }
+}
