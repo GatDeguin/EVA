@@ -1,0 +1,319 @@
+{
+  "started": "2026-10-05T02:45:16.647Z",
+  "cases": [
+    {
+      "requested": "webgl2",
+      "initial": {
+        "backend": "webgl2",
+        "capabilities": {
+          "backend": "webgl2",
+          "webgpu": {
+            "apiAvailable": true,
+            "adapterAvailable": false,
+            "initialized": false,
+            "features": []
+          },
+          "webgl2": {
+            "available": true,
+            "initialized": true
+          },
+          "mobile": false,
+          "devicePixelRatio": 1,
+          "resolution": {
+            "width": 760,
+            "height": 540
+          },
+          "hardwareConcurrency": 9,
+          "systemMemoryGB": 8,
+          "reducedMotion": false,
+          "refreshRateHz": null,
+          "refreshRateEstimate": true,
+          "hdr": true,
+          "hdrFormat": "RGBA16F",
+          "outputColorSpace": "sRGB / SDR",
+          "gpuTimingSupported": true,
+          "limits": {
+            "maxTextureSize": 8192,
+            "maxCubeTextureSize": 16384,
+            "maxRenderbufferSize": 8192,
+            "maxAnisotropy": 16,
+            "maxUniformBufferSize": 65536,
+            "maxBufferSize": null,
+            "maxSamples": 4
+          },
+          "textureCompression": {
+            "bc": true,
+            "astc": true,
+            "etc2": true
+          },
+          "softwareRendering": true,
+          "softwareRenderingEstimate": true,
+          "gpuTier": "software",
+          "gpuTierEstimate": true,
+          "estimatedTextureBudgetMB": 64,
+          "memoryEstimateBasis": "Conservative application texture budget from device class; not measured available VRAM.",
+          "rendererName": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+        },
+        "warnings": [],
+        "replacedCanvas": false,
+        "stats": {
+          "drawCalls": 20,
+          "triangles": 2494,
+          "geometries": 5,
+          "textures": 17,
+          "programs": 14,
+          "textureBytes": null
+        },
+        "samples": 4,
+        "aa": "MSAA 4×"
+      },
+      "modes": [
+        {
+          "name": "bloom-msaa",
+          "samples": 4,
+          "aa": "MSAA 4×",
+          "ao": false,
+          "bloom": true,
+          "hdr": true,
+          "stats": {
+            "drawCalls": 20,
+            "triangles": 2494,
+            "geometries": 5,
+            "textures": 17,
+            "programs": 14,
+            "textureBytes": null
+          },
+          "gpuTimeMs": null
+        },
+        {
+          "name": "gtao",
+          "samples": 4,
+          "aa": "MSAA 4×",
+          "ao": true,
+          "bloom": true,
+          "hdr": true,
+          "stats": {
+            "drawCalls": 30,
+            "triangles": 4978,
+            "geometries": 5,
+            "textures": 23,
+            "programs": 19,
+            "textureBytes": null
+          },
+          "gpuTimeMs": 108.198758
+        },
+        {
+          "name": "performance",
+          "samples": 0,
+          "aa": "FXAA",
+          "ao": false,
+          "bloom": false,
+          "hdr": true,
+          "stats": {
+            "drawCalls": 8,
+            "triangles": 2482,
+            "geometries": 5,
+            "textures": 23,
+            "programs": 20,
+            "textureBytes": null
+          },
+          "gpuTimeMs": 187.36933
+        },
+        {
+          "name": "restore",
+          "samples": 4,
+          "aa": "MSAA 4×",
+          "ao": false,
+          "bloom": true,
+          "hdr": true,
+          "stats": {
+            "drawCalls": 20,
+            "triangles": 2494,
+            "geometries": 5,
+            "textures": 22,
+            "programs": 20,
+            "textureBytes": null
+          },
+          "gpuTimeMs": 55.057821
+        }
+      ],
+      "errors": [],
+      "warnings": [
+        "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+      ],
+      "networkRequests": []
+    },
+    {
+      "requested": "webgpu",
+      "initial": {
+        "backend": "webgl2",
+        "capabilities": {
+          "backend": "webgl2",
+          "webgpu": {
+            "apiAvailable": true,
+            "adapterAvailable": true,
+            "initialized": false,
+            "features": [
+              "float32-blendable",
+              "depth32float-stencil8",
+              "rg11b10ufloat-renderable",
+              "bgra8unorm-storage",
+              "texture-compression-astc",
+              "texture-compression-etc2",
+              "depth-clip-control",
+              "texture-compression-bc",
+              "clip-distances",
+              "timestamp-query",
+              "chromium-experimental-unorm16-texture-formats",
+              "chromium-experimental-timestamp-query-inside-passes",
+              "float32-filterable",
+              "indirect-first-instance",
+              "subgroups"
+            ],
+            "adapterInfo": {
+              "vendor": "google",
+              "architecture": "swiftshader",
+              "isFallbackAdapter": true
+            }
+          },
+          "webgl2": {
+            "available": true,
+            "initialized": true
+          },
+          "mobile": false,
+          "devicePixelRatio": 1,
+          "resolution": {
+            "width": 760,
+            "height": 540
+          },
+          "hardwareConcurrency": 9,
+          "systemMemoryGB": 8,
+          "reducedMotion": false,
+          "refreshRateHz": null,
+          "refreshRateEstimate": true,
+          "hdr": true,
+          "hdrFormat": "RGBA16F",
+          "outputColorSpace": "sRGB / SDR",
+          "gpuTimingSupported": true,
+          "limits": {
+            "maxTextureSize": 8192,
+            "maxCubeTextureSize": 16384,
+            "maxRenderbufferSize": 8192,
+            "maxAnisotropy": 16,
+            "maxUniformBufferSize": 65536,
+            "maxBufferSize": null,
+            "maxSamples": 4
+          },
+          "textureCompression": {
+            "bc": true,
+            "astc": true,
+            "etc2": true
+          },
+          "softwareRendering": true,
+          "softwareRenderingEstimate": true,
+          "gpuTier": "software",
+          "gpuTierEstimate": true,
+          "estimatedTextureBudgetMB": 64,
+          "memoryEstimateBasis": "Conservative application texture budget from device class; not measured available VRAM.",
+          "rendererName": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+        },
+        "warnings": [
+          "WebGPU no pudo inicializarse; se activó WebGL 2: Instance dropped in onSubmittedWorkDone."
+        ],
+        "replacedCanvas": true,
+        "stats": {
+          "drawCalls": 20,
+          "triangles": 2494,
+          "geometries": 5,
+          "textures": 17,
+          "programs": 14,
+          "textureBytes": null
+        },
+        "samples": 4,
+        "aa": "MSAA 4×"
+      },
+      "modes": [
+        {
+          "name": "bloom-msaa",
+          "samples": 4,
+          "aa": "MSAA 4×",
+          "ao": false,
+          "bloom": true,
+          "hdr": true,
+          "stats": {
+            "drawCalls": 20,
+            "triangles": 2494,
+            "geometries": 5,
+            "textures": 17,
+            "programs": 14,
+            "textureBytes": null
+          },
+          "gpuTimeMs": null
+        },
+        {
+          "name": "gtao",
+          "samples": 4,
+          "aa": "MSAA 4×",
+          "ao": true,
+          "bloom": true,
+          "hdr": true,
+          "stats": {
+            "drawCalls": 30,
+            "triangles": 4978,
+            "geometries": 5,
+            "textures": 23,
+            "programs": 19,
+            "textureBytes": null
+          },
+          "gpuTimeMs": 111.763266
+        },
+        {
+          "name": "performance",
+          "samples": 0,
+          "aa": "FXAA",
+          "ao": false,
+          "bloom": false,
+          "hdr": true,
+          "stats": {
+            "drawCalls": 8,
+            "triangles": 2482,
+            "geometries": 5,
+            "textures": 23,
+            "programs": 20,
+            "textureBytes": null
+          },
+          "gpuTimeMs": 163.706259
+        },
+        {
+          "name": "restore",
+          "samples": 4,
+          "aa": "MSAA 4×",
+          "ao": false,
+          "bloom": true,
+          "hdr": true,
+          "stats": {
+            "drawCalls": 20,
+            "triangles": 2494,
+            "geometries": 5,
+            "textures": 22,
+            "programs": 20,
+            "textureBytes": null
+          },
+          "gpuTimeMs": 50.289869
+        }
+      ],
+      "errors": [
+        "THREE.THREE.WebGPURenderer: WebGPU Device Lost:\n\nMessage: A valid external Instance reference no longer exists.\nReason: unknown",
+        "OperationError: Instance dropped in popErrorScope"
+      ],
+      "warnings": [
+        "A valid external Instance reference no longer exists.",
+        "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+      ],
+      "networkRequests": []
+    }
+  ],
+  "browser": "134.0.6998.35",
+  "closed": true,
+  "finished": "2026-10-05T02:45:33.425Z"
+}

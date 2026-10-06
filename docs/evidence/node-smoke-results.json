@@ -1,0 +1,106 @@
+{
+  "started": "2026-10-05T02:49:50.141Z",
+  "cases": [
+    {
+      "requested": "tsl-fallback",
+      "initial": {
+        "backend": "TSL via WebGL2 (node graph compatibility only)",
+        "capabilities": {
+          "hdr": true,
+          "limits": {
+            "maxSamples": 0
+          },
+          "gpuTimingSupported": true
+        },
+        "warnings": [],
+        "replacedCanvas": false,
+        "stats": {
+          "drawCalls": 20,
+          "triangles": 2494,
+          "geometries": 5,
+          "textures": 21,
+          "programs": 24,
+          "textureBytes": 15339648
+        },
+        "samples": 0,
+        "aa": "FXAA"
+      },
+      "modes": [
+        {
+          "name": "bloom-msaa",
+          "samples": 0,
+          "aa": "FXAA",
+          "ao": false,
+          "bloom": true,
+          "hdr": true,
+          "stats": {
+            "drawCalls": 20,
+            "triangles": 2494,
+            "geometries": 5,
+            "textures": 21,
+            "programs": 24,
+            "textureBytes": 15339648
+          },
+          "gpuTimeMs": null
+        },
+        {
+          "name": "gtao",
+          "samples": 0,
+          "aa": "FXAA",
+          "ao": true,
+          "bloom": true,
+          "hdr": true,
+          "stats": {
+            "drawCalls": 22,
+            "triangles": 2496,
+            "geometries": 5,
+            "textures": 25,
+            "programs": 28,
+            "textureBytes": 16133732
+          },
+          "gpuTimeMs": 86.893367
+        },
+        {
+          "name": "performance",
+          "samples": 0,
+          "aa": "FXAA",
+          "ao": false,
+          "bloom": false,
+          "hdr": true,
+          "stats": {
+            "drawCalls": 8,
+            "triangles": 2482,
+            "geometries": 5,
+            "textures": 25,
+            "programs": 28,
+            "textureBytes": 16133732
+          },
+          "gpuTimeMs": 118.547982
+        },
+        {
+          "name": "restore",
+          "samples": 0,
+          "aa": "FXAA",
+          "ao": false,
+          "bloom": true,
+          "hdr": true,
+          "stats": {
+            "drawCalls": 20,
+            "triangles": 2494,
+            "geometries": 5,
+            "textures": 25,
+            "programs": 28,
+            "textureBytes": 16133732
+          },
+          "gpuTimeMs": 50.837214
+        }
+      ],
+      "errors": [],
+      "warnings": [],
+      "networkRequests": []
+    }
+  ],
+  "browser": "134.0.6998.35",
+  "closed": true,
+  "finished": "2026-10-05T02:49:57.366Z"
+}

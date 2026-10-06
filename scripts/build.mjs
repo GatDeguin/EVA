@@ -1,0 +1,15 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import * as esbuild from 'esbuild';
+import { createHash } from 'node:crypto';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const result=await esbuild.build({absWorkingDir:root,entryPoints:['src/main.js'],bundle:true,minify:true,format:'iife',target:['es2020'],legalComments:'inline',write:false,treeShaking:true,metafile:true,logLevel:'warning'});
+const code=result.outputFiles[0].text.replace(/<\/script/gi,'<\\/script');
+const shell=await fs.readFile(path.join(root,'shell.html'),'utf8');
+const motionCss=await fs.readFile(path.join(root,'src/motion.css'),'utf8');
+const html=shell.replace('</style>',()=>motionCss+'\n.seq-progress span{width:100%;transform:scaleX(0);transform-origin:left;transition:none}\n</style>').replace('__APP_BUNDLE__',()=>code);
+if (html.includes('__APP_BUNDLE__')) throw new Error('Unresolved application template');
+const outfile=path.join(root,'index.html');
+await fs.writeFile(outfile,html);
+console.log(JSON.stringify({outfile,bytes:Buffer.byteLength(html),sha256:createHash('sha256').update(html).digest('hex'),sourceModules:Object.keys(result.metafile.inputs).filter(x=>!x.includes('node_modules'))},null,2));

@@ -1,0 +1,2042 @@
+{
+  "startedAt": "2026-10-05T02:31:29.402Z",
+  "input": {
+    "file": "/workspace/scratch/38b5d5700a7e/qa-baseline/input-baseline.html",
+    "sha256": "7abea341d1d1ea3e931678288cfd808685661c51d22ed251ce4e47aeeaa438a0",
+    "bytes": 1246745
+  },
+  "browser": {
+    "executable": "/workspace/scratch/2c3f321136d8/diorama/qa-runtime/headless-shell/chrome-linux/headless_shell",
+    "args": [
+      "--no-sandbox",
+      "--disable-dev-shm-usage",
+      "--use-angle=swiftshader",
+      "--enable-unsafe-swiftshader"
+    ],
+    "version": "134.0.6998.35"
+  },
+  "environment": {
+    "viewport": {
+      "width": 1440,
+      "height": 960
+    },
+    "deviceScaleFactor": 1,
+    "origin": "file://",
+    "networkPolicy": "HTTP(S) blocked; browser context offline",
+    "performanceLimitations": [
+      "Software-rendered browser measurements are only a same-environment baseline; they do not establish hardware FPS.",
+      "Render-call duration is wall-clock time inside renderer.render(), not GPU time or isolated main-thread CPU time.",
+      "Sampling stops at 60 observed frames or an 8 second timer, whichever runs first; blocked browser work may delay the timer."
+    ],
+    "renderer": {
+      "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "vendor": "Google Inc. (Google)",
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "pixelRatio": 0.78,
+      "maxTextureSize": 8192,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/134.0.6998.35 Safari/537.36"
+    }
+  },
+  "captures": [
+    {
+      "name": "00-entry-cine",
+      "file": "/workspace/scratch/38b5d5700a7e/qa-baseline/00-entry-cine.png",
+      "state": {
+        "ready": true,
+        "mode": "window",
+        "source": "mouse",
+        "paused": false,
+        "time": 7.516320666666667,
+        "frames": 22,
+        "tracking": "idle",
+        "cameraGuided": false,
+        "sound": false,
+        "soundState": "not-created",
+        "activePanel": null,
+        "welcomeSeen": false,
+        "preferences": {
+          "parallax": 1,
+          "viewDistance": 65,
+          "screenHeight": 32,
+          "exposure": 1,
+          "lighting": "night",
+          "shadows": true,
+          "bloom": true,
+          "grid": false,
+          "quality": "auto",
+          "mirror": true,
+          "preview": true,
+          "follow": true
+        },
+        "pose": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "frustum": {
+          "left": -0.04334784712143204,
+          "right": 0.04334784712143204,
+          "top": 0.024615384615384626,
+          "bottom": -0.02461538461538462,
+          "distance": 21.9375,
+          "width": 19.018867924528305,
+          "height": 10.8,
+          "centerY": 5.45,
+          "screenZ": 0,
+          "eyeX": 0,
+          "eyeY": 5.45,
+          "eyeZ": 21.9375
+        },
+        "quality": "low",
+        "shadows": true,
+        "bloom": true,
+        "bloomActive": false,
+        "drawCalls": 142,
+        "triangles": 245686,
+        "confidence": 0,
+        "activation": -1,
+        "viewport": {
+          "width": 1400,
+          "height": 795,
+          "dpr": 0.78
+        },
+        "modelStats": {
+          "meshes": 35,
+          "triangles": 95592,
+          "originalPieces": 308,
+          "bounds": {
+            "min": [
+              -3.399064064025879,
+              0.25999999046325684,
+              -2.2653051662445067
+            ],
+            "max": [
+              3.399064064025879,
+              9.319999694824219,
+              6.106264705657959
+            ]
+          },
+          "description": "Volumetric, beveled EVA-01 armor; hollow temporal arches; articulated neck and mandible"
+        },
+        "hangarStats": {
+          "drawCalls": 40,
+          "triangles": 27648,
+          "physicalDetails": 998,
+          "workers": 3,
+          "width": 15.14,
+          "height": 12.5,
+          "depth": 12.45
+        },
+        "camera": {
+          "position": [
+            0,
+            5.45,
+            21.9375
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "rendererMemory": {
+          "geometries": 75,
+          "textures": 29,
+          "programs": 13
+        },
+        "canvas": {
+          "width": 1092,
+          "height": 620
+        },
+        "bodySize": {
+          "width": 1440,
+          "height": 960
+        }
+      }
+    },
+    {
+      "name": "01-cine-neutral",
+      "file": "/workspace/scratch/38b5d5700a7e/qa-baseline/01-cine-neutral.png",
+      "state": {
+        "ready": true,
+        "mode": "window",
+        "source": "mouse",
+        "paused": true,
+        "time": 17.165920666666665,
+        "frames": 47,
+        "tracking": "idle",
+        "cameraGuided": false,
+        "sound": false,
+        "soundState": "not-created",
+        "activePanel": null,
+        "welcomeSeen": true,
+        "preferences": {
+          "parallax": 1,
+          "viewDistance": 65,
+          "screenHeight": 32,
+          "exposure": 1,
+          "lighting": "night",
+          "shadows": true,
+          "bloom": true,
+          "grid": false,
+          "quality": "auto",
+          "mirror": true,
+          "preview": true,
+          "follow": true
+        },
+        "pose": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "frustum": {
+          "left": -0.04334784712143204,
+          "right": 0.04334784712143204,
+          "top": 0.024615384615384626,
+          "bottom": -0.02461538461538462,
+          "distance": 21.9375,
+          "width": 19.018867924528305,
+          "height": 10.8,
+          "centerY": 5.45,
+          "screenZ": 0,
+          "eyeX": 0,
+          "eyeY": 5.45,
+          "eyeZ": 21.9375
+        },
+        "quality": "low",
+        "shadows": true,
+        "bloom": true,
+        "bloomActive": false,
+        "drawCalls": 142,
+        "triangles": 245686,
+        "confidence": 0,
+        "activation": -1,
+        "viewport": {
+          "width": 1400,
+          "height": 795,
+          "dpr": 0.78
+        },
+        "modelStats": {
+          "meshes": 35,
+          "triangles": 95592,
+          "originalPieces": 308,
+          "bounds": {
+            "min": [
+              -3.399064064025879,
+              0.25999999046325684,
+              -2.2653051662445067
+            ],
+            "max": [
+              3.399064064025879,
+              9.319999694824219,
+              6.106264705657959
+            ]
+          },
+          "description": "Volumetric, beveled EVA-01 armor; hollow temporal arches; articulated neck and mandible"
+        },
+        "hangarStats": {
+          "drawCalls": 40,
+          "triangles": 27648,
+          "physicalDetails": 998,
+          "workers": 3,
+          "width": 15.14,
+          "height": 12.5,
+          "depth": 12.45
+        },
+        "camera": {
+          "position": [
+            0,
+            5.45,
+            21.9375
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "rendererMemory": {
+          "geometries": 75,
+          "textures": 29,
+          "programs": 13
+        },
+        "canvas": {
+          "width": 1092,
+          "height": 620
+        },
+        "bodySize": {
+          "width": 1440,
+          "height": 960
+        }
+      }
+    },
+    {
+      "name": "02-studio-neutral",
+      "file": "/workspace/scratch/38b5d5700a7e/qa-baseline/02-studio-neutral.png",
+      "state": {
+        "ready": true,
+        "mode": "window",
+        "source": "mouse",
+        "paused": true,
+        "time": 17.165920666666665,
+        "frames": 71,
+        "tracking": "idle",
+        "cameraGuided": false,
+        "sound": false,
+        "soundState": "not-created",
+        "activePanel": null,
+        "welcomeSeen": true,
+        "preferences": {
+          "parallax": 1,
+          "viewDistance": 65,
+          "screenHeight": 32,
+          "exposure": 1,
+          "lighting": "studio",
+          "shadows": true,
+          "bloom": true,
+          "grid": false,
+          "quality": "auto",
+          "mirror": true,
+          "preview": true,
+          "follow": true
+        },
+        "pose": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "frustum": {
+          "left": -0.04334784712143204,
+          "right": 0.04334784712143204,
+          "top": 0.024615384615384626,
+          "bottom": -0.02461538461538462,
+          "distance": 21.9375,
+          "width": 19.018867924528305,
+          "height": 10.8,
+          "centerY": 5.45,
+          "screenZ": 0,
+          "eyeX": 0,
+          "eyeY": 5.45,
+          "eyeZ": 21.9375
+        },
+        "quality": "low",
+        "shadows": true,
+        "bloom": true,
+        "bloomActive": false,
+        "drawCalls": 142,
+        "triangles": 245686,
+        "confidence": 0,
+        "activation": -1,
+        "viewport": {
+          "width": 1400,
+          "height": 795,
+          "dpr": 0.78
+        },
+        "modelStats": {
+          "meshes": 35,
+          "triangles": 95592,
+          "originalPieces": 308,
+          "bounds": {
+            "min": [
+              -3.399064064025879,
+              0.25999999046325684,
+              -2.2653051662445067
+            ],
+            "max": [
+              3.399064064025879,
+              9.319999694824219,
+              6.106264705657959
+            ]
+          },
+          "description": "Volumetric, beveled EVA-01 armor; hollow temporal arches; articulated neck and mandible"
+        },
+        "hangarStats": {
+          "drawCalls": 40,
+          "triangles": 27648,
+          "physicalDetails": 998,
+          "workers": 3,
+          "width": 15.14,
+          "height": 12.5,
+          "depth": 12.45
+        },
+        "camera": {
+          "position": [
+            0,
+            5.45,
+            21.9375
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "rendererMemory": {
+          "geometries": 75,
+          "textures": 29,
+          "programs": 13
+        },
+        "canvas": {
+          "width": 1092,
+          "height": 620
+        },
+        "bodySize": {
+          "width": 1440,
+          "height": 960
+        }
+      }
+    },
+    {
+      "name": "03-studio-inspect",
+      "file": "/workspace/scratch/38b5d5700a7e/qa-baseline/03-studio-inspect.png",
+      "state": {
+        "ready": true,
+        "mode": "inspect",
+        "source": "orbit",
+        "paused": true,
+        "time": 24.94902066666667,
+        "frames": 101,
+        "tracking": "idle",
+        "cameraGuided": false,
+        "sound": false,
+        "soundState": "not-created",
+        "activePanel": null,
+        "welcomeSeen": true,
+        "preferences": {
+          "parallax": 1,
+          "viewDistance": 65,
+          "screenHeight": 32,
+          "exposure": 1,
+          "lighting": "studio",
+          "shadows": true,
+          "bloom": true,
+          "grid": false,
+          "quality": "auto",
+          "mirror": true,
+          "preview": true,
+          "follow": true
+        },
+        "pose": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "frustum": {
+          "left": -0.04334784712143204,
+          "right": 0.04334784712143204,
+          "top": 0.024615384615384626,
+          "bottom": -0.02461538461538462,
+          "distance": 21.9375,
+          "width": 19.018867924528305,
+          "height": 10.8,
+          "centerY": 5.45,
+          "screenZ": 0,
+          "eyeX": 0,
+          "eyeY": 5.45,
+          "eyeZ": 21.9375
+        },
+        "quality": "low",
+        "shadows": true,
+        "bloom": true,
+        "bloomActive": false,
+        "drawCalls": 105,
+        "triangles": 234894,
+        "confidence": 0,
+        "activation": -1,
+        "viewport": {
+          "width": 1400,
+          "height": 795,
+          "dpr": 0.78
+        },
+        "modelStats": {
+          "meshes": 35,
+          "triangles": 95592,
+          "originalPieces": 308,
+          "bounds": {
+            "min": [
+              -3.399064064025879,
+              0.25999999046325684,
+              -2.2653051662445067
+            ],
+            "max": [
+              3.399064064025879,
+              9.319999694824219,
+              6.106264705657959
+            ]
+          },
+          "description": "Volumetric, beveled EVA-01 armor; hollow temporal arches; articulated neck and mandible"
+        },
+        "hangarStats": {
+          "drawCalls": 40,
+          "triangles": 27648,
+          "physicalDetails": 998,
+          "workers": 3,
+          "width": 15.14,
+          "height": 12.5,
+          "depth": 12.45
+        },
+        "camera": {
+          "position": [
+            14.057721545513616,
+            10.61090521959014,
+            19.306836678621266
+          ],
+          "quaternion": [
+            -0.0972179239398055,
+            0.26487626074520254,
+            0.026851823849460894,
+            0.9589933374713462
+          ]
+        },
+        "rendererMemory": {
+          "geometries": 75,
+          "textures": 29,
+          "programs": 13
+        },
+        "canvas": {
+          "width": 1092,
+          "height": 620
+        },
+        "bodySize": {
+          "width": 1440,
+          "height": 960
+        }
+      }
+    }
+  ],
+  "samples": [
+    {
+      "name": "default-cine-auto-quality",
+      "reason": "8 second timer",
+      "elapsedMs": 8001.800000000745,
+      "appFrames": 5,
+      "frameIntervalMs": {
+        "count": 4,
+        "min": 99.89999999999964,
+        "max": 4766.600000000002,
+        "mean": 1537.4249999999997,
+        "p50": 616.5,
+        "p95": 4766.600000000002,
+        "p99": 4766.600000000002
+      },
+      "renderCallWallTimeMs": {
+        "count": 5,
+        "min": 1.599999999627471,
+        "max": 7.400000000372529,
+        "mean": 3.0400000002235172,
+        "p50": 2.100000001490116,
+        "p95": 7.400000000372529,
+        "p99": 7.400000000372529
+      },
+      "rawFrameIntervalsMs": [
+        99.89999999999964,
+        4766.600000000002,
+        616.5,
+        666.6999999999971
+      ],
+      "rawRenderCallWallTimeMs": [
+        7.400000000372529,
+        2.199999999254942,
+        1.599999999627471,
+        2.100000001490116,
+        1.900000000372529
+      ],
+      "frameStats": [
+        {
+          "frame": 26,
+          "calls": 142,
+          "triangles": 245686,
+          "geometries": 75,
+          "textures": 29,
+          "programs": 13
+        },
+        {
+          "frame": 27,
+          "calls": 142,
+          "triangles": 245686,
+          "geometries": 75,
+          "textures": 29,
+          "programs": 13
+        },
+        {
+          "frame": 28,
+          "calls": 142,
+          "triangles": 245686,
+          "geometries": 75,
+          "textures": 29,
+          "programs": 13
+        },
+        {
+          "frame": 29,
+          "calls": 142,
+          "triangles": 245686,
+          "geometries": 75,
+          "textures": 29,
+          "programs": 13
+        },
+        {
+          "frame": 30,
+          "calls": 142,
+          "triangles": 245686,
+          "geometries": 75,
+          "textures": 29,
+          "programs": 13
+        }
+      ],
+      "state": {
+        "ready": true,
+        "mode": "window",
+        "source": "mouse",
+        "paused": false,
+        "time": 17.165920666666665,
+        "frames": 30,
+        "tracking": "idle",
+        "cameraGuided": false,
+        "sound": false,
+        "soundState": "not-created",
+        "activePanel": null,
+        "welcomeSeen": true,
+        "preferences": {
+          "parallax": 1,
+          "viewDistance": 65,
+          "screenHeight": 32,
+          "exposure": 1,
+          "lighting": "night",
+          "shadows": true,
+          "bloom": true,
+          "grid": false,
+          "quality": "auto",
+          "mirror": true,
+          "preview": true,
+          "follow": true
+        },
+        "pose": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "frustum": {
+          "left": -0.04334784712143204,
+          "right": 0.04334784712143204,
+          "top": 0.024615384615384626,
+          "bottom": -0.02461538461538462,
+          "distance": 21.9375,
+          "width": 19.018867924528305,
+          "height": 10.8,
+          "centerY": 5.45,
+          "screenZ": 0,
+          "eyeX": 0,
+          "eyeY": 5.45,
+          "eyeZ": 21.9375
+        },
+        "quality": "low",
+        "shadows": true,
+        "bloom": true,
+        "bloomActive": false,
+        "drawCalls": 142,
+        "triangles": 245686,
+        "confidence": 0,
+        "activation": -1,
+        "viewport": {
+          "width": 1400,
+          "height": 795,
+          "dpr": 0.78
+        },
+        "modelStats": {
+          "meshes": 35,
+          "triangles": 95592,
+          "originalPieces": 308,
+          "bounds": {
+            "min": [
+              -3.399064064025879,
+              0.25999999046325684,
+              -2.2653051662445067
+            ],
+            "max": [
+              3.399064064025879,
+              9.319999694824219,
+              6.106264705657959
+            ]
+          },
+          "description": "Volumetric, beveled EVA-01 armor; hollow temporal arches; articulated neck and mandible"
+        },
+        "hangarStats": {
+          "drawCalls": 40,
+          "triangles": 27648,
+          "physicalDetails": 998,
+          "workers": 3,
+          "width": 15.14,
+          "height": 12.5,
+          "depth": 12.45
+        }
+      }
+    },
+    {
+      "name": "studio-auto-quality",
+      "reason": "8 second timer",
+      "elapsedMs": 8000.699999999255,
+      "appFrames": 8,
+      "frameIntervalMs": {
+        "count": 7,
+        "min": 516.5999999999985,
+        "max": 3749.800000000003,
+        "mean": 1038.0571428571432,
+        "p50": 616.5999999999985,
+        "p95": 3749.800000000003,
+        "p99": 3749.800000000003
+      },
+      "renderCallWallTimeMs": {
+        "count": 8,
+        "min": 1.400000000372529,
+        "max": 4.900000000372529,
+        "mean": 2.1375000001862645,
+        "p50": 1.6000000014901161,
+        "p95": 4.900000000372529,
+        "p99": 4.900000000372529
+      },
+      "rawFrameIntervalsMs": [
+        616.5999999999985,
+        666.6999999999971,
+        3749.800000000003,
+        516.5999999999985,
+        550.0999999999985,
+        616.6000000000058,
+        550
+      ],
+      "rawRenderCallWallTimeMs": [
+        2.400000000372529,
+        1.900000000372529,
+        4.900000000372529,
+        1.400000000372529,
+        1.599999999627471,
+        1.699999999254942,
+        1.599999999627471,
+        1.6000000014901161
+      ],
+      "frameStats": [
+        {
+          "frame": 72,
+          "calls": 142,
+          "triangles": 245686,
+          "geometries": 75,
+          "textures": 29,
+          "programs": 13
+        },
+        {
+          "frame": 73,
+          "calls": 142,
+          "triangles": 245686,
+          "geometries": 75,
+          "textures": 29,
+          "programs": 13
+        },
+        {
+          "frame": 74,
+          "calls": 142,
+          "triangles": 245686,
+          "geometries": 75,
+          "textures": 29,
+          "programs": 13
+        },
+        {
+          "frame": 75,
+          "calls": 142,
+          "triangles": 245686,
+          "geometries": 75,
+          "textures": 29,
+          "programs": 13
+        },
+        {
+          "frame": 76,
+          "calls": 142,
+          "triangles": 245686,
+          "geometries": 75,
+          "textures": 29,
+          "programs": 13
+        },
+        {
+          "frame": 77,
+          "calls": 142,
+          "triangles": 245686,
+          "geometries": 75,
+          "textures": 29,
+          "programs": 13
+        },
+        {
+          "frame": 78,
+          "calls": 142,
+          "triangles": 245686,
+          "geometries": 75,
+          "textures": 29,
+          "programs": 13
+        },
+        {
+          "frame": 79,
+          "calls": 142,
+          "triangles": 245686,
+          "geometries": 75,
+          "textures": 29,
+          "programs": 13
+        }
+      ],
+      "state": {
+        "ready": true,
+        "mode": "window",
+        "source": "mouse",
+        "paused": false,
+        "time": 24.94902066666667,
+        "frames": 79,
+        "tracking": "idle",
+        "cameraGuided": false,
+        "sound": false,
+        "soundState": "not-created",
+        "activePanel": null,
+        "welcomeSeen": true,
+        "preferences": {
+          "parallax": 1,
+          "viewDistance": 65,
+          "screenHeight": 32,
+          "exposure": 1,
+          "lighting": "studio",
+          "shadows": true,
+          "bloom": true,
+          "grid": false,
+          "quality": "auto",
+          "mirror": true,
+          "preview": true,
+          "follow": true
+        },
+        "pose": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "frustum": {
+          "left": -0.04334784712143204,
+          "right": 0.04334784712143204,
+          "top": 0.024615384615384626,
+          "bottom": -0.02461538461538462,
+          "distance": 21.9375,
+          "width": 19.018867924528305,
+          "height": 10.8,
+          "centerY": 5.45,
+          "screenZ": 0,
+          "eyeX": 0,
+          "eyeY": 5.45,
+          "eyeZ": 21.9375
+        },
+        "quality": "low",
+        "shadows": true,
+        "bloom": true,
+        "bloomActive": false,
+        "drawCalls": 142,
+        "triangles": 245686,
+        "confidence": 0,
+        "activation": -1,
+        "viewport": {
+          "width": 1400,
+          "height": 795,
+          "dpr": 0.78
+        },
+        "modelStats": {
+          "meshes": 35,
+          "triangles": 95592,
+          "originalPieces": 308,
+          "bounds": {
+            "min": [
+              -3.399064064025879,
+              0.25999999046325684,
+              -2.2653051662445067
+            ],
+            "max": [
+              3.399064064025879,
+              9.319999694824219,
+              6.106264705657959
+            ]
+          },
+          "description": "Volumetric, beveled EVA-01 armor; hollow temporal arches; articulated neck and mandible"
+        },
+        "hangarStats": {
+          "drawCalls": 40,
+          "triangles": 27648,
+          "physicalDetails": 998,
+          "workers": 3,
+          "width": 15.14,
+          "height": 12.5,
+          "depth": 12.45
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+  ],
+  "networkRequests": [],
+  "initialState": {
+    "ready": true,
+    "mode": "window",
+    "source": "mouse",
+    "paused": false,
+    "time": 1.8332206666666662,
+    "frames": 4,
+    "tracking": "idle",
+    "cameraGuided": false,
+    "sound": false,
+    "soundState": "not-created",
+    "activePanel": null,
+    "welcomeSeen": false,
+    "preferences": {
+      "parallax": 1,
+      "viewDistance": 65,
+      "screenHeight": 32,
+      "exposure": 1,
+      "lighting": "night",
+      "shadows": true,
+      "bloom": true,
+      "grid": false,
+      "quality": "auto",
+      "mirror": true,
+      "preview": true,
+      "follow": true
+    },
+    "pose": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "frustum": {
+      "left": -0.04334784712143204,
+      "right": 0.04334784712143204,
+      "top": 0.024615384615384626,
+      "bottom": -0.02461538461538462,
+      "distance": 21.9375,
+      "width": 19.018867924528305,
+      "height": 10.8,
+      "centerY": 5.45,
+      "screenZ": 0,
+      "eyeX": 0,
+      "eyeY": 5.45,
+      "eyeZ": 21.9375
+    },
+    "quality": "low",
+    "shadows": true,
+    "bloom": true,
+    "bloomActive": false,
+    "drawCalls": 142,
+    "triangles": 245686,
+    "confidence": 0,
+    "activation": -1,
+    "viewport": {
+      "width": 1400,
+      "height": 795,
+      "dpr": 0.78
+    },
+    "modelStats": {
+      "meshes": 35,
+      "triangles": 95592,
+      "originalPieces": 308,
+      "bounds": {
+        "min": [
+          -3.399064064025879,
+          0.25999999046325684,
+          -2.2653051662445067
+        ],
+        "max": [
+          3.399064064025879,
+          9.319999694824219,
+          6.106264705657959
+        ]
+      },
+      "description": "Volumetric, beveled EVA-01 armor; hollow temporal arches; articulated neck and mandible"
+    },
+    "hangarStats": {
+      "drawCalls": 40,
+      "triangles": 27648,
+      "physicalDetails": 998,
+      "workers": 3,
+      "width": 15.14,
+      "height": 12.5,
+      "depth": 12.45
+    }
+  },
+  "cameraRequests": 0,
+  "sceneInventory": {
+    "diagnosticKeys": [
+      "ready",
+      "scene",
+      "camera",
+      "renderer",
+      "tracker",
+      "eva",
+      "hangar",
+      "lightRig",
+      "getState",
+      "setPose",
+      "setView",
+      "trigger",
+      "pause",
+      "reset",
+      "capture",
+      "screenCorners"
+    ],
+    "hangarKeys": [
+      "group",
+      "shell",
+      "walls",
+      "structure",
+      "update",
+      "setMode",
+      "animated",
+      "lights",
+      "stats"
+    ],
+    "hangarStats": {
+      "drawCalls": 40,
+      "triangles": 27648,
+      "physicalDetails": 998,
+      "workers": 3,
+      "width": 15.14,
+      "height": 12.5,
+      "depth": 12.45
+    },
+    "geometryCount": 83,
+    "materialCount": 51,
+    "meshCount": 74,
+    "meshes": [
+      {
+        "name": "",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 2,
+        "instances": 1
+      },
+      {
+        "name": "Flexible graphite understructure",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 864,
+        "instances": 1
+      },
+      {
+        "name": "Unit 01 • amethyst ceramic armor",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 8226,
+        "instances": 1
+      },
+      {
+        "name": "Elastomer seals",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 7004,
+        "instances": 1
+      },
+      {
+        "name": "Pectoral carbon alloy",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 2716,
+        "instances": 1
+      },
+      {
+        "name": "Armor shadow coat",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 2492,
+        "instances": 1
+      },
+      {
+        "name": "Lime bevel and channel",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 748,
+        "instances": 1
+      },
+      {
+        "name": "Fluorescent lime ceramic",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 692,
+        "instances": 1
+      },
+      {
+        "name": "Deep violet undercuts",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 336,
+        "instances": 1
+      },
+      {
+        "name": "Gunmetal mechanics",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 9960,
+        "instances": 1
+      },
+      {
+        "name": "Recessed crimson service ports",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 896,
+        "instances": 1
+      },
+      {
+        "name": "Oxide red panel gaskets",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 1792,
+        "instances": 1
+      },
+      {
+        "name": "Blackened fasteners",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 384,
+        "instances": 1
+      },
+      {
+        "name": "Machined titanium",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 168,
+        "instances": 1
+      },
+      {
+        "name": "Saffron collar armor",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 1244,
+        "instances": 1
+      },
+      {
+        "name": "Orange shadow bevel",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 552,
+        "instances": 1
+      },
+      {
+        "name": "Elastomer seals",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 860,
+        "instances": 1
+      },
+      {
+        "name": "Armor shadow coat",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 900,
+        "instances": 1
+      },
+      {
+        "name": "Deep violet undercuts",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 2996,
+        "instances": 1
+      },
+      {
+        "name": "Mandible • desaturated titanium purple",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 3040,
+        "instances": 1
+      },
+      {
+        "name": "Oxide red panel gaskets",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 440,
+        "instances": 1
+      },
+      {
+        "name": "Machined titanium",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 96,
+        "instances": 1
+      },
+      {
+        "name": "Blackened fasteners",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 48,
+        "instances": 1
+      },
+      {
+        "name": "Deep violet undercuts",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 7072,
+        "instances": 1
+      },
+      {
+        "name": "Armor shadow coat",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 7744,
+        "instances": 1
+      },
+      {
+        "name": "Gunmetal mechanics",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 3736,
+        "instances": 1
+      },
+      {
+        "name": "Blackened fasteners",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 216,
+        "instances": 1
+      },
+      {
+        "name": "Unit 01 • amethyst ceramic armor",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 19232,
+        "instances": 1
+      },
+      {
+        "name": "Elastomer seals",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 4704,
+        "instances": 1
+      },
+      {
+        "name": "Optical housing • amber",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 1728,
+        "instances": 1
+      },
+      {
+        "name": "Eyes • amber phosphor",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 1728,
+        "instances": 1
+      },
+      {
+        "name": "Oxide red panel gaskets",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 520,
+        "instances": 1
+      },
+      {
+        "name": "Lime bevel and channel",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 780,
+        "instances": 1
+      },
+      {
+        "name": "Fluorescent lime ceramic",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 620,
+        "instances": 1
+      },
+      {
+        "name": "Recessed crimson service ports",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 1056,
+        "instances": 1
+      },
+      {
+        "name": "CAGE 07",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 2,
+        "instances": 1
+      },
+      {
+        "name": "EVA 01",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 2,
+        "instances": 1
+      },
+      {
+        "name": "07",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 2,
+        "instances": 1
+      },
+      {
+        "name": "AUTHORIZED PERSONNEL",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 2,
+        "instances": 1
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 48,
+        "instances": 1
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 456,
+        "instances": 1
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 1620,
+        "instances": 1
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 624,
+        "instances": 1
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 480,
+        "instances": 1
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 120,
+        "instances": 1
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 264,
+        "instances": 1
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 324,
+        "instances": 1
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 276,
+        "instances": 1
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 432,
+        "instances": 1
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 204,
+        "instances": 1
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 48,
+        "instances": 1
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 72,
+        "instances": 1
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 648,
+        "instances": 1
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 48,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 2424,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 1560,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 2196,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 1872,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 2552,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 1712,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 12,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 12,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 324,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 1896,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 24,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 168,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 660,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 2400,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 144,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 1536,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 2304,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 24,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 24,
+        "instances": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "visible": true,
+        "triangles": 132,
+        "instances": 1
+      }
+    ],
+    "named": [
+      {
+        "name": "EVA-01 • restrained biomechanical bust",
+        "type": "Group",
+        "children": 1
+      },
+      {
+        "name": "Pectoral armor and exposed neck",
+        "type": "Group",
+        "children": 16
+      },
+      {
+        "name": "Flexible graphite understructure",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Unit 01 • amethyst ceramic armor",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Elastomer seals",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Pectoral carbon alloy",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Armor shadow coat",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Lime bevel and channel",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Fluorescent lime ceramic",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Deep violet undercuts",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Gunmetal mechanics",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Recessed crimson service ports",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Oxide red panel gaskets",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Blackened fasteners",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Machined titanium",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Saffron collar armor",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Orange shadow bevel",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Neck articulation",
+        "type": "Group",
+        "children": 1
+      },
+      {
+        "name": "Mandibular articulation",
+        "type": "Group",
+        "children": 1
+      },
+      {
+        "name": "Elastomer seals",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Armor shadow coat",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Deep violet undercuts",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Mandible • desaturated titanium purple",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Oxide red panel gaskets",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Machined titanium",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Blackened fasteners",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Deep violet undercuts",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Armor shadow coat",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Gunmetal mechanics",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Blackened fasteners",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Unit 01 • amethyst ceramic armor",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Elastomer seals",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Optical housing • amber",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Eyes • amber phosphor",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Oxide red panel gaskets",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Lime bevel and channel",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Fluorescent lime ceramic",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Recessed crimson service ports",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "EVA 01 • Cage 07",
+        "type": "Group",
+        "children": 3
+      },
+      {
+        "name": "Hangar walls",
+        "type": "Group",
+        "children": 19
+      },
+      {
+        "name": "CAGE 07",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "EVA 01",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "07",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "AUTHORIZED PERSONNEL",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Architectural detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Restraints, service decks, and floor",
+        "type": "Group",
+        "children": 17
+      },
+      {
+        "name": "Maintenance crew 1",
+        "type": "Group",
+        "children": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Maintenance crew 2",
+        "type": "Group",
+        "children": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Maintenance crew 3",
+        "type": "Group",
+        "children": 1
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Mechanical detail",
+        "type": "Mesh",
+        "children": 0
+      },
+      {
+        "name": "Airborne dust",
+        "type": "Points",
+        "children": 0
+      }
+    ],
+    "resourceEntries": []
+  },
+  "finalState": {
+    "ready": true,
+    "mode": "inspect",
+    "source": "orbit",
+    "paused": true,
+    "time": 24.94902066666667,
+    "frames": 101,
+    "tracking": "idle",
+    "cameraGuided": false,
+    "sound": false,
+    "soundState": "not-created",
+    "activePanel": null,
+    "welcomeSeen": true,
+    "preferences": {
+      "parallax": 1,
+      "viewDistance": 65,
+      "screenHeight": 32,
+      "exposure": 1,
+      "lighting": "studio",
+      "shadows": true,
+      "bloom": true,
+      "grid": false,
+      "quality": "auto",
+      "mirror": true,
+      "preview": true,
+      "follow": true
+    },
+    "pose": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "frustum": {
+      "left": -0.04334784712143204,
+      "right": 0.04334784712143204,
+      "top": 0.024615384615384626,
+      "bottom": -0.02461538461538462,
+      "distance": 21.9375,
+      "width": 19.018867924528305,
+      "height": 10.8,
+      "centerY": 5.45,
+      "screenZ": 0,
+      "eyeX": 0,
+      "eyeY": 5.45,
+      "eyeZ": 21.9375
+    },
+    "quality": "low",
+    "shadows": true,
+    "bloom": true,
+    "bloomActive": false,
+    "drawCalls": 105,
+    "triangles": 234894,
+    "confidence": 0,
+    "activation": -1,
+    "viewport": {
+      "width": 1400,
+      "height": 795,
+      "dpr": 0.78
+    },
+    "modelStats": {
+      "meshes": 35,
+      "triangles": 95592,
+      "originalPieces": 308,
+      "bounds": {
+        "min": [
+          -3.399064064025879,
+          0.25999999046325684,
+          -2.2653051662445067
+        ],
+        "max": [
+          3.399064064025879,
+          9.319999694824219,
+          6.106264705657959
+        ]
+      },
+      "description": "Volumetric, beveled EVA-01 armor; hollow temporal arches; articulated neck and mandible"
+    },
+    "hangarStats": {
+      "drawCalls": 40,
+      "triangles": 27648,
+      "physicalDetails": 998,
+      "workers": 3,
+      "width": 15.14,
+      "height": 12.5,
+      "depth": 12.45
+    }
+  },
+  "browserClosed": true,
+  "finishedAt": "2026-10-05T02:32:31.362Z"
+}
